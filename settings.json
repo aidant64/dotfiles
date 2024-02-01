@@ -12,6 +12,5 @@
     "window.menuBarVisibility": "toggle",
     "breadcrumbs.enabled": false,
     "workbench.statusBar.visible": false,
-    "workbench.activityBar.location": "hidden", //side bar
-    "editor.cursorStyle": "block"
+    "workbench.activityBar.location": "side" //side bar
 }
