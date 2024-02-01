@@ -3,14 +3,12 @@
     "editor.minimap.enabled": false,
     "security.workspace.trust.untrustedFiles": "open",
     "editor.formatOnSave": true,
-    "C_Cpp.default.compilerPath": "/usr/bin/g++",
-    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}",
-    "git.enableSmartCommit": true,
     "workbench.startupEditor": "none",
     "editor.fontSize": 12,
     "window.zoomLevel": 1,
     "window.menuBarVisibility": "toggle",
     "breadcrumbs.enabled": false,
     "workbench.statusBar.visible": false,
-    "workbench.activityBar.location": "side" //side bar
+    "workbench.activityBar.location": "top",
+    "editor.tabSize": 4
 }
