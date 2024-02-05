@@ -22,4 +22,6 @@ export PS1="\[\e[1;34m\]\w\[\e[m\]\[\e[37m\]\\$\[\e[m\] "
 #export PS1="\[\e[32m\]\u\[\e[m\]:\[\e[36m\]\w\[\e[m\]$ "
 #\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$
 alias editt='vi /home/aidan/.config/terminator/config'
+
+#alias rebootwin='sudo grub-reboot 2 && sudo reboot'
                                                          
