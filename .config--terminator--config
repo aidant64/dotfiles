@@ -64,8 +64,7 @@
 }
 
 .terminator-terminal-window tab:checked {
-    background-color: white;
-    color: black;
+    background-color: black;
 }
 
 .terminator-terminal-window tab label {
@@ -75,8 +74,10 @@
     text-decoration: none;
     background-color: black;
     min-height: 0px;
+	color: white;
 }
 
 .terminator-terminal-window tab:checked label {
-    background-color: white;
+    background-color: black;
+    color: red;
 }
