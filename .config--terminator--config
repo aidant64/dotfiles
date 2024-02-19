@@ -59,12 +59,12 @@
     margin-left: -4;
     min-height: 0px;
     min-width: none;
-    background-color: black;
-    border-color: black;
+    background-color: #302f2b;
+    border-color: #302f2b;
 }
 
 .terminator-terminal-window tab:checked {
-    background-color: black;
+    background-color: #302f2b;
 }
 
 .terminator-terminal-window tab label {
@@ -72,12 +72,12 @@
     border: 0;
     margin: 0;
     text-decoration: none;
-    background-color: black;
+    background-color: #302f2b;
     min-height: 0px;
-	color: white;
+    color: white;
 }
 
 .terminator-terminal-window tab:checked label {
-    background-color: black;
+    background-color: #302f2b;
     color: red;
 }
