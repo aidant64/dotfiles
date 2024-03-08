@@ -1,5 +1,8 @@
 [global_config]
+  handle_size = 3
+  window_state = maximise
   close_button_on_tab = False
+  always_on_top = True
   title_hide_sizetext = True
   title_transmit_bg_color = "#000000"
   title_inactive_fg_color = "#ffffff"
@@ -10,40 +13,39 @@
   new_tab = <Primary><Shift>n
   go_next = ""
   go_prev = ""
-  go_up = <Primary><Shift>Up
-  go_down = <Primary><Shift>Down
-  go_left = <Primary><Shift>Left
-  go_right = <Primary><Shift>Right
+  go_up = <Primary><Shift>k
+  go_down = <Primary><Shift>j
+  go_left = <Primary><Shift>h
+  go_right = <Primary><Shift>l
   split_horiz = <Primary>underscore
   split_vert = <Primary>bar
   resize_up = ""
   resize_down = ""
   resize_left = ""
   resize_right = ""
-  next_tab = <Primary><Shift>l
-  prev_tab = <Primary><Shift>h
+  next_tab = <Primary><Shift>Right
+  prev_tab = <Primary><Shift>Left
+  hide_window = <Primary><Shift><Alt>a
 [profiles]
   [[default]]
     icon_bell = False
-    background_darkness = 0.85
+    background_darkness = 0.92
     cursor_blink = False
     cursor_color = "#aaaaaa"
     foreground_color = "#ffffff"
     show_titlebar = False
     scrollbar_position = hidden
-    scrollback_lines = 1000
-    palette = "#000000:#cd0000:#00cd00:#cdcd00:#62a0ea:#cd00cd:#00cdcd:#e5e5e5:#7f7f7f:#ff0000:#00ff00:#ffff00:#62a0ea:#ff00ff:#00ffff:#ffffff"
+    scrollback_lines = 1500
+    palette = "#000000:#cd0000:#00cd00:#cdcd00:#62a0ea:#cd00cd:#00cdcd:#e5e5e5:#7f7f7f:#ff0000:#00ff00:#ffff00:#5c5cff:#ff00ff:#00ffff:#ffffff"
 [layouts]
   [[default]]
     [[[window0]]]
       type = Window
       parent = ""
-      title = bash
+      title = xterm
     [[[child1]]]
       type = Terminal
       parent = window0
-      title = bash
-      profile = default
 [plugins]
 
 
